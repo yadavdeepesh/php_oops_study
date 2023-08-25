@@ -1,0 +1,4 @@
+// PHP OOP (Object-oriented programming)
+
+    
+OOP in PHP alludes to a programming style having an association of the class, objects, and various components. PHP is a server-side programming language used for web development. Object-oriented programming in PHP helps developers build reusable and complex web applications..
