@@ -6,13 +6,13 @@ class ParentClass{
     }
 }
 class DerivedClass extends ParentClass{
-    public function __construct(){
-        echo "Constructor is called <br>";
-        echo parent::$name;
+    public function __construct($n){
+        echo "Constructor is called <br>";  
+        echo parent::$name = $n;
     }
 }
 
-$derivedcclass = new DerivedClass();
+$derivedcclass = new DerivedClass("deepu kumar");
 echo "<br> Static Member <br>";
 ParentClass :: $name;
 
